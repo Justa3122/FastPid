@@ -27,6 +27,7 @@ namespace FastPid2
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
             SetUpMap();
+            //guyguyguygyuggugu
 
         }
 
