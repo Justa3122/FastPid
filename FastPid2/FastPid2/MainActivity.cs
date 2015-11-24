@@ -27,7 +27,6 @@ namespace FastPid2
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
             SetUpMap();
-            //guyguyguygyuggugu
 
         }
 
@@ -38,7 +37,10 @@ namespace FastPid2
                 FragmentManager.FindFragmentById<MapFragment>(Resource.Id.map).GetMapAsync(this);
             }
         }
-        
+        public void OnMapReady(GoogleMap googleMap)
+        {
+            mMap = googleMap;
+        }
 
     }
 }
