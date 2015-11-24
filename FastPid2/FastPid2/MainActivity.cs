@@ -38,10 +38,7 @@ namespace FastPid2
                 FragmentManager.FindFragmentById<MapFragment>(Resource.Id.map).GetMapAsync(this);
             }
         }
-        public void OnMapReady(GoogleMap googleMap)
-        {
-            mMap = googleMap;
-        }
+        
 
     }
 }
